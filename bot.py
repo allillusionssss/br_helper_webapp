@@ -11,7 +11,7 @@ from aiogram.types import (
 
 # === ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ ===
 BOT_TOKEN = os.getenv("8672641706:AAEphTKpLiKlITZe-ctD5pYE6_Z2lqmvetE")
-ADMIN_ID = int(os.getenv("7080587694")
+ADMIN_ID = int(os.getenv("7080587694"))
 WEBAPP_URL = os.getenv("https://github.com/allillusionssss/br_helper_webapp")
 
 logging.basicConfig(level=logging.INFO)
