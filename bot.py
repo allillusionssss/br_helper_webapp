@@ -9,9 +9,9 @@ from aiogram.types import (
     WebAppInfo, MenuButtonWebApp
 )
 
-BOT_TOKEN = os.getenv("8672641706:AAEphTKpLiKlITZe-ctD5pYE6_Z2lqmvetE")
-ADMIN_ID = int(os.getenv("7080587694"))
-WEBAPP_URL = os.getenv("https://github.com/allillusionssss/br_helper_webapp")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
+WEBAPP_URL = os.getenv("WEBAPP_URL")
 
 logging.basicConfig(level=logging.INFO)
 
